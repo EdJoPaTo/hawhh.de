@@ -3,4 +3,5 @@
 
 <div class="quickresults">
   <div quickresult ng-repeat="result in oftenlinks | filter: q" item="result"></div>
+  <div quickresult ng-show="q" item="currentsearch"></div>
 </div>
