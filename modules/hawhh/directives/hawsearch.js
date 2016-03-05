@@ -1,5 +1,5 @@
 angular.module('hawhh')
-  .directive('hawsearch', function($window) {
+  .directive('hawsearch', function($window, duckDuckGoSearchLinkService) {
     return {
       scope: {
         q: "="
@@ -11,7 +11,7 @@ angular.module('hawhh')
         };
         scope.search = function(q) {
           if (!q) return;
-          $window.open("//duckduckgo.com/?q=" + window.encodeURIComponent(scope.q + " site:haw-hamburg.de"));
+          $window.open(duckDuckGoSearchLinkService(scope.q + " site:haw-hamburg.de"));
         };
       }
     };
