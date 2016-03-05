@@ -14,6 +14,11 @@
   "keywords": [],
   "url": "http://www.elearning.haw-hamburg.de/my/"
 }, {
+  "name": "ownCloud",
+  "description": "ownCloud des Department Informatik",
+  "keywords": [],
+  "url": "https://owncloud.informatik.haw-hamburg.de/"
+}, {
   "name": "Dokumentations-Wiki des Departments Informatik",
   "description": "Auf dieser Seite stehen Informationen für IT-Nutzer des Departments Informatik",
   "keywords": [],
