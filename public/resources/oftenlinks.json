@@ -1,0 +1,36 @@
+[{
+  "name": "StISys",
+  "description": "Studenten Informations System",
+  "keywords": [],
+  "url": "https://stisys.haw-hamburg.de"
+}, {
+  "name": "Helios",
+  "description": "Elektronisches Informations- und Organisationssystem",
+  "keywords": [],
+  "url": "https://haw-hamburg.de/helios"
+}, {
+  "name": "EMIL",
+  "description": "E-Learning-Plattform EMIL (Moodle)",
+  "keywords": [],
+  "url": "http://www.elearning.haw-hamburg.de/my/"
+}, {
+  "name": "Dokumentations-Wiki des Departments Informatik",
+  "description": "Auf dieser Seite stehen Informationen für IT-Nutzer des Departments Informatik",
+  "keywords": [],
+  "url": "https://userdoc.informatik.haw-hamburg.de/doku.php"
+}, {
+  "name": "Speiseplän der Mensen",
+  "description": "Speisepläne des Studierendenwerk Hamburg",
+  "keywords": [],
+  "url": "http://www.studierendenwerk-hamburg.de/studierendenwerk/de/essen/speiseplaene/"
+}, {
+  "name": "Speiseplan Mensa Berliner Tor",
+  "description": "Speiseplan Studierendenwerk Mensa Berliner Tor",
+  "keywords": [],
+  "url": "http://speiseplan.studierendenwerk-hamburg.de/index.php/de/cafeteria/show/id/530"
+}, {
+  "name": "CaDS",
+  "description": "Communication and distributed systems",
+  "keywords": ["mbc"],
+  "url": "http://scimbe.de"
+}]

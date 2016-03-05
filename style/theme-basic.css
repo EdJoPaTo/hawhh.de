@@ -1,0 +1,39 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: #33AAFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+.hawlogo {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 10vmax;
+  padding-top: 20px;
+}
+
+a, a:active, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  color: #33AAFF;
+}
+
+h1, strong, .linklike, .linklike:active, .linklike:hover, .linklike:focus, .linklike:visited {
+  color: #002B66;
+}
+
+#footer {
+  background-color: #002B66;
+  text-align: center;
+}
+
+#footer a, #footer a:active, #footer a:focus, #footer a:visited {
+  text-decoration: underline;
+}

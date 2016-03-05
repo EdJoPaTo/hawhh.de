@@ -1,0 +1,31 @@
+.quickresults {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  width: 100%;
+}
+
+.quickresults > div {
+  margin-top: 0.5em;
+  padding: 1em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.quickresults > div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.quickresults span.name {
+  font-size: 1.1em;
+}
+
+.quickresults linklike:hover {
+  transition-property: filter, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  color: #002B66;
+  filter: drop-shadow(0px 0px 5px #002B66);
+}
