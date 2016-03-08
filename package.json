@@ -9,6 +9,7 @@
     "gulp-uglify": "^1.1.0"
   },
   "devDependencies": {
+    "gulp-connect": "^2.3.1",
     "gulp-watch": "^4.3.5"
   },
   "author": "Edgar To"
