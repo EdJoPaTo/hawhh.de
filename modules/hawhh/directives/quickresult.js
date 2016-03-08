@@ -4,9 +4,6 @@ angular.module('hawhh')
       scope: {
         item: "="
       },
-      templateUrl: 'templates/directives/quickresult.html',
-      controller: function($scope) {
-
-      }
+      templateUrl: 'templates/directives/quickresult.html'
     };
   });
