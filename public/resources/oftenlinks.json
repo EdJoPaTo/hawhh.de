@@ -17,7 +17,7 @@
   "name": "Telegram Kalender Bot",
   "description": "Lasse dir einen auf dich abgestimmten Vorlesungskalender erstellen",
   "keywords": ["hawhhcalendarbot", "veranstaltungspläne", "ics"],
-  "url": "https://telegram.me/hawhhcalendarbot"
+  "url": "https://telegram.me/HAWHHCalendarBot"
 }, {
   "name": "ownCloud",
   "description": "ownCloud des Department Informatik",
@@ -29,7 +29,7 @@
   "keywords": [],
   "url": "https://userdoc.informatik.haw-hamburg.de/doku.php"
 }, {
-  "name": "Speiseplän der Mensen",
+  "name": "Speisepläne der Mensen",
   "description": "Speisepläne des Studierendenwerk Hamburg",
   "keywords": [],
   "url": "http://www.studierendenwerk-hamburg.de/studierendenwerk/de/essen/speiseplaene/"
