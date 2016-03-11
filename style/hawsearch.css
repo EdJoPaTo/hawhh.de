@@ -14,6 +14,15 @@
 }
 
 .hawsearch .query {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  background: none;
+  outline: none;
   width: 100%;
   height: auto;
 }

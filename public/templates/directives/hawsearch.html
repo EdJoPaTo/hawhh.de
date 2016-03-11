@@ -1,5 +1,5 @@
 <form ng-submit="search(q)" target="_blank">
-  <input type="search" ng-model="q" placeholder="Durchsuche HAW Webseite mit DuckDuckGo..." class="query" autocorrect="off" autocapitalize="off" autocomplete="off" tabindex="1" />
+  <input type="text" ng-model="q" placeholder="Durchsuche HAW Webseite mit DuckDuckGo..." class="query" autocorrect="off" autocapitalize="off" autocomplete="off" tabindex="1" />
   <input type="button" value="X" class="clear" ng-show="q" tabindex="2" ng-click="clearsearch()" />
   <input type="button" class="search" tabindex="3" ng-click="search(q)" target="_blank" />
 </form>
