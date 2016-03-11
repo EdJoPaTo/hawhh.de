@@ -16,13 +16,18 @@
 }, {
   "name": "Telegram Kalender Bot",
   "description": "Lasse dir einen auf dich abgestimmten Vorlesungskalender erstellen",
-  "keywords": ["hawhhcalendarbot", "veranstaltungspläne", "ics"],
+  "keywords": [ "hawhhcalendarbot", "veranstaltungspläne", "ics" ],
   "url": "https://telegram.me/HAWHHCalendarBot"
 }, {
   "name": "ownCloud",
   "description": "ownCloud des Department Informatik",
   "keywords": [],
   "url": "https://owncloud.informatik.haw-hamburg.de/"
+}, {
+  "name": "HAW-Mailer",
+  "description": "Das zentrale Mailsystem der HAW Hamburg",
+  "keywords": [],
+  "url": "https://www.haw-hamburg.de/online-services/haw-mailer.html"
 }, {
   "name": "Dokumentations-Wiki des Departments Informatik",
   "description": "Auf dieser Seite stehen Informationen für IT-Nutzer des Departments Informatik",
@@ -41,6 +46,6 @@
 }, {
   "name": "CaDS",
   "description": "Communication and distributed systems",
-  "keywords": ["mbc"],
+  "keywords": [ "mbc" ],
   "url": "http://scimbe.de"
 }]
