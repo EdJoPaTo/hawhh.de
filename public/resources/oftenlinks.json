@@ -1,4 +1,4 @@
-[{
+[ {
   "name": "StISys",
   "description": "Studenten Informations System",
   "keywords": [],
@@ -29,6 +29,11 @@
   "keywords": [],
   "url": "https://www.haw-hamburg.de/online-services/haw-mailer.html"
 }, {
+  "name": "Selfservice",
+  "description": "Der Selfservice dient zum Ändern des HAW Passwortes",
+  "keywords": [],
+  "url": "https://selfservice.haw-hamburg.de/"
+}, {
   "name": "Dokumentations-Wiki des Departments Informatik",
   "description": "Auf dieser Seite stehen Informationen für IT-Nutzer des Departments Informatik",
   "keywords": [],
@@ -48,4 +53,4 @@
   "description": "Communication and distributed systems",
   "keywords": [ "mbc" ],
   "url": "http://scimbe.de"
-}]
+} ]
