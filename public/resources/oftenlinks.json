@@ -29,6 +29,11 @@
   "keywords": [],
   "url": "https://www.haw-hamburg.de/online-services/haw-mailer.html"
 }, {
+  "name": "Meeting Room Booking System",
+  "description": "Dep. Informatik Raumplanungssystem",
+  "keywords": [ "raum", "belegt", "frei", "veranstaltung" ],
+  "url": "https://resources.informatik.haw-hamburg.de"
+}, {
   "name": "Selfservice",
   "description": "Der Selfservice dient zum Ändern des HAW Passwortes",
   "keywords": [],
