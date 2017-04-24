@@ -24,6 +24,11 @@
   "keywords": [],
   "url": "https://owncloud.informatik.haw-hamburg.de/"
 }, {
+  "name": "GitLab",
+  "description": "GitLab Instanz des Department Informatik",
+  "keywords": [ "github", "bitbucket", "sourcecode", "vcs" ],
+  "url": "https://gitlab.informatik.haw-hamburg.de/"
+}, {
   "name": "HAW-Mailer",
   "description": "Das zentrale Mailsystem der HAW Hamburg",
   "keywords": [],
