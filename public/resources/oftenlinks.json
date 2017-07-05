@@ -63,4 +63,10 @@
   "description": "Communication and distributed systems",
   "keywords": [ "mbc" ],
   "url": "http://scimbe.de"
-} ]
+},
+{
+  "name": "Klausurensammlung",
+  "description": "Sammlung von Klausuren aus vergangenen Semestern",
+  "keywords": [ "klausuren", "sammlung" ],
+  "url": "https://haw-informatik.de/klausurensammlung/klausuren/"
+}]
