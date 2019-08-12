@@ -74,4 +74,10 @@
   "description": "Sammlung von Klausuren aus vergangenen Semestern",
   "keywords": [ "klausuren", "sammlung" ],
   "url": "https://haw-informatik.de/klausurensammlung/klausuren/"
+},
+{
+  "name": "HIBS Online-Katalog",
+  "description": "Online Bibliothekskatalog und Benutzerkonto für Buchentleihungen",
+  "keywords": [ "hibs", "entleihungen", "bibliothek", "katalog" ],
+  "url": "https://www.haw-hamburg.de/hibs/recherche/opac.html"
 }]
