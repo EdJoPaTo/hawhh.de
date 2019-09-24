@@ -24,6 +24,11 @@
   "keywords": [ "hawhhcalendarbot", "veranstaltungspläne", "ics" ],
   "url": "https://telegram.me/HAWHHCalendarBot"
 }, {
+  "name": "Cloud der HAW Hamburg",
+  "description": "ownCloud der HAW Hamburg für Studenten",
+  "keywords": [ "cloud", "owncloud" ],
+  "url": "https://cloud.haw-hamburg.de/"
+}, {
   "name": "ownCloud",
   "description": "ownCloud des Department Informatik",
   "keywords": [],
