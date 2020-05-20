@@ -29,11 +29,6 @@
   "keywords": [ "cloud", "owncloud" ],
   "url": "https://cloud.haw-hamburg.de/"
 }, {
-  "name": "ownCloud",
-  "description": "ownCloud des Department Informatik",
-  "keywords": [],
-  "url": "https://owncloud.informatik.haw-hamburg.de/"
-}, {
   "name": "GitLab",
   "description": "GitLab Instanz des Department Informatik",
   "keywords": [ "github", "bitbucket", "sourcecode", "vcs" ],
