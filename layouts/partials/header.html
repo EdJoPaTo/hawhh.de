@@ -1,0 +1,9 @@
+<header>
+  <a href="/">
+    <img src="/hawlogo_transparent.png" class="hawlogo" alt="HAW Logo">
+  </a>
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.subtitle }}
+  <div>{{ .Params.subtitle }}</div>
+  {{ end }}
+</header>

@@ -1,0 +1,51 @@
+main {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 0.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  article,
+  > div {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  article {
+    transition: background-color ease 0.2s;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  a:hover article {
+    background-color: whitesmoke;
+    @media (prefers-color-scheme: dark) {
+      background-color: #333;
+    }
+  }
+
+  > div {
+    text-align: center;
+  }
+
+  .url {
+    font-size: 0.9rem;
+  }
+}
+
+.keywords {
+  display: none;
+}

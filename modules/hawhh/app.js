@@ -1,1 +1,0 @@
-angular.module("hawhh", ['ngRoute']);

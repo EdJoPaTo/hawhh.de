@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+{{ partial "head.html" . }}
+{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+{{ $style := resources.Get "style/main.scss" | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ $built := resources.Get "js/filter.js" | js.Build "filter.js" }}
+<script src="{{ $built.RelPermalink }}" defer></script>
+</head>
+
+<body>
+{{ partial "header.html" . }}
+{{ block "main" . }}{{ end }}
+{{ partial "footer.html" . }}
+</body>
+</html>

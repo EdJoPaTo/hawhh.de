@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ .Summary }}">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="HAW HH">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:url" content="https://hawhh.de">
+<meta property="og:site_name" content="HAW HH">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Summary }}">
+<meta property="og:image" content="/appicon_192.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="192">
+<meta property="og:image:height" content="192">
+<link href="/hawlogo.png" title="hawhh.de" rel="fluid-icon">
+<link href="/appicon_192.png" sizes="192x192" rel="apple-touch-icon-precomposed">
+<link href="/appicon_152.png" sizes="152x152" rel="apple-touch-icon-precomposed">
+<link href="/appicon_144.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+<link href="/appicon_180.png" sizes="120x120" rel="apple-touch-icon-precomposed">
+<link href="/appicon_114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+<link href="/appicon_76.png" sizes="76x76" rel="apple-touch-icon-precomposed">
+<link href="/appicon_72.png" sizes="72x72" rel="apple-touch-icon-precomposed">
+<link href="/appicon_57.png" sizes="57x57" rel="apple-touch-icon-precomposed">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="theme-color" content="#acb7cf">
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+{{ end -}}
