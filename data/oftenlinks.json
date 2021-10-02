@@ -1,4 +1,4 @@
-[ {
+[{
   "name": "StISys",
   "description": "Studenten Informations System",
   "keywords": [],
@@ -17,31 +17,31 @@
   "name": "EMIL",
   "description": "E-Learning-Plattform EMIL (Moodle)",
   "keywords": [],
-  "url": "https://www.elearning.haw-hamburg.de/my/"
+  "url": "https://emil.haw-hamburg.de"
 }, {
   "name": "Telegram Kalender Bot",
   "description": "Lasse dir einen auf dich abgestimmten Vorlesungskalender erstellen",
-  "keywords": [ "hawhhcalendarbot", "veranstaltungspläne", "ics" ],
+  "keywords": ["hawhhcalendarbot", "veranstaltungspläne", "ics"],
   "url": "https://telegram.me/HAWHHCalendarBot"
 }, {
   "name": "Cloud der HAW Hamburg",
   "description": "ownCloud der HAW Hamburg für Studenten",
-  "keywords": [ "cloud", "owncloud" ],
+  "keywords": ["cloud", "owncloud"],
   "url": "https://cloud.haw-hamburg.de/"
 }, {
   "name": "GitLab",
   "description": "GitLab Instanz des Department Informatik",
-  "keywords": [ "github", "bitbucket", "sourcecode", "vcs" ],
+  "keywords": ["github", "bitbucket", "sourcecode", "vcs"],
   "url": "https://git.haw-hamburg.de/"
 }, {
   "name": "HAW-Mailer",
   "description": "Das zentrale Mailsystem der HAW Hamburg",
   "keywords": [],
-  "url": "https://www.haw-hamburg.de/online-services/haw-mailer.html"
+  "url": "https://haw-mailer.haw-hamburg.de/owa"
 }, {
   "name": "Meeting Room Booking System",
   "description": "Dep. Informatik Raumplanungssystem",
-  "keywords": [ "raum", "belegt", "frei", "veranstaltung" ],
+  "keywords": ["raum", "belegt", "frei", "veranstaltung"],
   "url": "https://resources.informatik.haw-hamburg.de"
 }, {
   "name": "Selfservice",
@@ -62,22 +62,25 @@
   "name": "Speiseplan Mensa Berliner Tor",
   "description": "Speiseplan Studierendenwerk Mensa Berliner Tor",
   "keywords": [],
-  "url": "https://speiseplan.studierendenwerk-hamburg.de/index.php/de/cafeteria/show/id/530"
+  "url": "https://www.studierendenwerk-hamburg.de/speiseplan?l=170"
 }, {
   "name": "CaDS",
   "description": "Communication and distributed systems",
   "keywords": [],
   "url": "https://cads.informatik.haw-hamburg.de/"
-},
-{
+}, {
   "name": "Klausurensammlung",
   "description": "Sammlung von Klausuren aus vergangenen Semestern",
-  "keywords": [ "klausuren", "sammlung" ],
+  "keywords": ["klausuren", "sammlung"],
   "url": "https://haw-informatik.de/klausurensammlung/klausuren/"
-},
-{
+}, {
   "name": "HIBS Online-Katalog",
   "description": "Online Bibliothekskatalog und Benutzerkonto für Buchentleihungen",
-  "keywords": [ "hibs", "entleihungen", "bibliothek", "katalog" ],
+  "keywords": ["hibs", "entleihungen", "bibliothek", "katalog"],
   "url": "https://katalog.haw-hamburg.de"
+}, {
+  "name": "Online Services",
+  "description": "Übersicht über die Online Services der HAW",
+  "keywords": ["dienste", "tools"],
+  "url": "https://www.haw-hamburg.de/online-services/"
 }]
