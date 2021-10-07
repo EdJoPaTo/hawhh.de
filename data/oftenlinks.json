@@ -79,6 +79,16 @@
   "keywords": [],
   "url": "https://www.studierendenwerk-hamburg.de/speiseplan?l=170"
 }, {
+  "name": "Fachschaftsrat Informatik und Fachschaftsrat Informations- und Elektrotechnik",
+  "description": "Gemeinschaftwebseite der des Fachschaftsrat Informatik und des Fachschaftsrat Informations- und Elektrotechnik",
+  "keywords": ["website", "fsr", "i2e"],
+  "url": "https://i2e.fsr.haw-hamburg.de/"
+}, {
+  "name": "Nextcloud der FSR I & I2E",
+  "description": "Nextcloud Instanz der Fachschaftsräte Informatik und Informations- und Elektrotechnik",
+  "keywords": ["cloud", "nextcloud", "fsr", "i2e"],
+  "url": "https://nc.i2e.fsr.haw-hamburg.de/"
+}, {
   "name": "CaDS",
   "description": "Communication and distributed systems",
   "keywords": [],
