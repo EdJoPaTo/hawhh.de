@@ -39,6 +39,11 @@
   "keywords": [],
   "url": "https://haw-mailer.haw-hamburg.de/owa"
 }, {
+  "name": "JupyterHub",
+  "description": "JupyterHub für JypyterNotebooks der HAW Hamburg",
+  "keywords": ["python", "jupyternotebook", "ai", "ml", "machinelearning"],
+  "url": "https://jupyterhub.informatik.haw-hamburg.de/"
+}, {
   "name": "Meeting Room Booking System",
   "description": "Dep. Informatik Raumplanungssystem",
   "keywords": ["raum", "belegt", "frei", "veranstaltung"],
