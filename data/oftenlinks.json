@@ -44,6 +44,11 @@
   "keywords": [],
   "url": "https://haw-mailer.haw-hamburg.de/owa"
 }, {
+  "name": "HAW VPN Service",
+  "description": "VPN Server der HAW Hamburg",
+  "keywords": ["vpn", "cisco", "openconnect", "paper", "research", "icc"],
+  "url": "https://vpn.haw-hamburg.de"
+}, {
   "name": "JupyterHub",
   "description": "JupyterHub für JypyterNotebooks der HAW Hamburg",
   "keywords": ["python", "jupyternotebook", "ai", "ml", "machinelearning"],
