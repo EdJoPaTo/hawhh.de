@@ -41,7 +41,7 @@
 }, {
   "name": "JupyterHub",
   "description": "JupyterHub für JypyterNotebooks der HAW Hamburg",
-  "keywords": ["python", "jupyternotebook", "AI", "ML"],
+  "keywords": ["python", "jupyternotebook", "ai", "ml", "machinelearning"],
   "url": "https://jupyterhub.informatik.haw-hamburg.de/"
 }, {
   "name": "Meeting Room Booking System",
