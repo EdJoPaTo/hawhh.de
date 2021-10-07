@@ -79,9 +79,9 @@
   "keywords": ["website", "fsr"],
   "url": "https://i2e.fsr.haw-hamburg.de/"
 }, {
-  "name": "FSR I2E Nextcloud - Onlinespeicher",
-  "description": "Nextcloud Instanz des FSR I2E",
-  "keywords": ["cloud", "nextcloud", "fsr"],
+  "name": "Nextcloud der FSR I & I2E",
+  "description": "Nextcloud Instanz der Fachschaftsräte Informatik und Informations- und Elektrotechnik",
+  "keywords": ["cloud", "nextcloud", "fsr", "i2e"],
   "url": "https://nc.i2e.fsr.haw-hamburg.de/"
 }, {
   "name": "CaDS",
