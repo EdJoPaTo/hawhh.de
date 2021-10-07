@@ -74,15 +74,15 @@
   "keywords": [],
   "url": "https://www.studierendenwerk-hamburg.de/speiseplan?l=170"
 }, {
-  "name": "FSR I2E Nextcloud - Onlinespeicher",
-  "description": "Nextcloud Instanz des FSR I2E",
-  "keywords": ["cloud", "nextcloud", "fsr"],
-  "url": "https://nc.i2e.fsr.haw-hamburg.de/"
-}, {
   "name": "FSR I2E",
   "description": "Gemeinschaftwebseite der des Fachschaftsrat Informatik und des Fachschaftsrat Informations- und Elektrotechnik",
   "keywords": ["website", "fsr"],
   "url": "https://i2e.fsr.haw-hamburg.de/"
+}, {
+  "name": "FSR I2E Nextcloud - Onlinespeicher",
+  "description": "Nextcloud Instanz des FSR I2E",
+  "keywords": ["cloud", "nextcloud", "fsr"],
+  "url": "https://nc.i2e.fsr.haw-hamburg.de/"
 }, {
   "name": "CaDS",
   "description": "Communication and distributed systems",
