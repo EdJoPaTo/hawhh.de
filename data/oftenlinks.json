@@ -36,7 +36,7 @@
 }, {
   "name": "ICC - Informatik Compute Cloud",
   "description": "Die Informatik Compute Cloud (ICC) ist eine vom AI Labor zur Verfügung gestellte Cloud-Plattform, in der Mitglieder des Departments containerbasierte Anwendungen betreiben können.",
-  "keywords": ["icc", "cloud", "ai", "k8s", "kubernetes", "ml"],
+  "keywords": ["icc", "cloud", "ai", "k8s", "kubernetes", "ml", "machinelearning"],
   "url": "https://icc.informatik.haw-hamburg.de/"
 }, {
   "name": "HAW-Mailer",
