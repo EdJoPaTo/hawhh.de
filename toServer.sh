@@ -3,4 +3,8 @@ set -e
 
 rm -rf public
 hugo
-rsync -acv --compress --omit-dir-times --exclude=.DS_Store --delete-delay public/ xmas2014.3t0.de:/var/www/hawhh.de/
+rsync \
+	--recursive --perms --times --omit-dir-times \
+	--compress --verbose --checksum --delete-delay --delay-updates \
+	--exclude=.DS_Store \
+	public/ xmas2014.3t0.de:/var/www/hawhh.de/

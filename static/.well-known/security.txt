@@ -1,0 +1,3 @@
+Contact: mailto:security-txt@hawhh.de
+Preferred-Languages: de, en
+Canonical: https://hawhh.de/.well-known/security.txt
