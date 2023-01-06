@@ -1,5 +1,6 @@
 baseURL: https://hawhh.de/
 DefaultContentLanguage: de
+enableGitInfo: true
 languageCode: de
 metaDataFormat: "yaml"
 title: Inoffizielle HAW Hamburg Suche

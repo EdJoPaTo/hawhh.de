@@ -1,6 +1,5 @@
 ---
 date: 2017-07-25T13:54:32+02:00
-lastmod: 2017-07-25T13:54:32+02:00
 title: "Impressum"
 ---
 Der Verantwortliche für diese Website (hawhh.de) und deren Inhalt ist Edgar Toll.
