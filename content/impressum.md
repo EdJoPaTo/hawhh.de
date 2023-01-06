@@ -2,18 +2,20 @@
 date: 2017-07-25T13:54:32+02:00
 title: "Impressum"
 ---
-Der Verantwortliche für diese Website (hawhh.de) und deren Inhalt ist Edgar Toll.
+Verantwortlich für diese Website (hawhh.de) und deren Inhalt ist Edgar Toll.
 
-Kontaktemail: info@3t0.com (Kontakt bitte ausschließlich auf Englisch oder Deutsch)
+Kontakt-E-Mail: webmaster@hawhh.de (Kontakt bitte ausschließlich auf Englisch oder Deutsch)
 
 # Haftung für Inhalte
+
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
 Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
-Verpflichtungen zur Entfernung oder Sperrung der Nutzung von  Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
 Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich.
 Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
 # Haftung für Links
+
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
 Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
 Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
@@ -23,6 +25,7 @@ Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konk
 Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
 # Urheberrecht
+
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
 Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw.
 Erstellers.
@@ -33,8 +36,9 @@ Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten 
 Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
 # Datenschutz
+
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.
-Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis.
+Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis.
 Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B.
 bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.
