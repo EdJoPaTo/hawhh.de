@@ -27,7 +27,6 @@
 <link href="/appicon_72.png" sizes="72x72" rel="apple-touch-icon-precomposed">
 <link href="/appicon_57.png" sizes="57x57" rel="apple-touch-icon-precomposed">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<meta name="theme-color" content="#acb7cf">
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{ end -}}
