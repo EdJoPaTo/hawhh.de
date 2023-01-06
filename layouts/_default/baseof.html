@@ -5,8 +5,6 @@
 {{ partial "head.html" . }}
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ $built := resources.Get "js/filter.js" | js.Build "filter.js" | resources.Fingerprint "sha512" -}}
-<script src="{{ $built.RelPermalink }}" defer></script>
 </head>
 
 <body>

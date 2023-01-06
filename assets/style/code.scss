@@ -1,0 +1,87 @@
+p code {
+	/* inline code */
+	color: hsl(var(--time-hue), 100%, 20%);
+	@media (prefers-color-scheme: dark) {
+		color: hsl(var(--time-hue), 100%, 80%);
+	}
+}
+
+pre {
+	overflow-x: auto;
+
+	.k, .kd {
+		/* language keywords */
+		font-weight: bold;
+		color: green;
+		@media (prefers-color-scheme: dark) {
+			color: lightgreen;
+		}
+	}
+
+	.nn, .nc {
+		/* namespaces, classes */
+		color: #0000ff;
+		font-weight: bold;
+	}
+
+	.s, .s1, .s2, .sr {
+		/* string */
+		color: darkred;
+		@media (prefers-color-scheme: dark) {
+			color: #ff4545;
+		}
+	}
+	.kt, .kr {
+		/*type */
+		font-weight: bold;
+		color: darkred;
+		@media (prefers-color-scheme: dark) {
+			color: #ff4545;
+		}
+	}
+
+	.kc, .mi {
+		/* const / operator */
+		color: green;
+		@media (prefers-color-scheme: dark) {
+			color: lightgreen;
+		}
+	}
+
+	.o {
+		/* operator */
+		color: #666;
+		@media (prefers-color-scheme: dark) {
+			color: #aaa;
+		}
+	}
+	.p {
+		/* semicolon, brakets*/
+		color: #666;
+		@media (prefers-color-scheme: dark) {
+			color: #aaa;
+		}
+	}
+	.cm, .c1 {
+		/* comment */
+		color: #666;
+		@media (prefers-color-scheme: dark) {
+			color: #aaa;
+		}
+	}
+
+	.gd {
+		/* diff delete */
+		color: darkred;
+		@media (prefers-color-scheme: dark) {
+			color: #ff4545;
+		}
+	}
+	.gi {
+		/* diff insert */
+		color: green;
+		@media (prefers-color-scheme: dark) {
+			color: lightgreen;
+		}
+	}
+}

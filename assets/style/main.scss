@@ -15,7 +15,7 @@ body {
   }
 }
 
-h1, h2, .url {
+h1, h2, h3, h4, h5, h6, .url {
   color: #283d73;
   @media (prefers-color-scheme: dark) {
     color: #acb7cf;
@@ -24,7 +24,9 @@ h1, h2, .url {
 
 @import "a";
 @import "background";
+@import "code";
 @import "footer";
 @import "header";
 @import "input";
 @import "list";
+@import "single";

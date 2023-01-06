@@ -3,4 +3,6 @@ DefaultContentLanguage: de
 enableGitInfo: true
 languageCode: de
 metaDataFormat: "yaml"
+pygmentsCodeFences: true
+pygmentsUseClasses: true
 title: Inoffizielle HAW Hamburg Suche

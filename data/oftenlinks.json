@@ -22,7 +22,7 @@
   "name": "Telegram Kalender Bot",
   "description": "Lasse dir einen auf dich abgestimmten Vorlesungskalender erstellen",
   "keywords": ["hawhhcalendarbot", "veranstaltungspläne", "ics"],
-  "url": "https://telegram.me/HAWHHCalendarBot"
+  "url": "https://hawhh.de/calendarbot/"
 }, {
   "name": "Cloud der HAW Hamburg",
   "description": "ownCloud der HAW Hamburg für Studenten",

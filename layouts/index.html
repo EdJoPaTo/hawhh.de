@@ -6,6 +6,8 @@
     <input type="hidden" name="sites" value="haw-hamburg.de">
     <button type="submit">Search</button>
 </form>
+{{ $built := resources.Get "js/filter.js" | js.Build "filter.js" | resources.Fingerprint "sha512" -}}
+<script src="{{ $built.RelPermalink }}" defer></script>
 
 <div class="list">
     {{ range .Site.Data.oftenlinks }}
