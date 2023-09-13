@@ -1,13 +1,9 @@
 const filterInput = document.querySelector("input[type=search]");
+const oftenlinks = document.querySelectorAll(".list article");
 
 filterInput.addEventListener("keyup", () => {
 	const criteria = filterInput.value.toLowerCase().trim();
-	const order = document.querySelectorAll(".list article");
-	order.forEach(data => {
-		if (data.textContent.toLowerCase().includes(criteria)) {
-			data.style['display'] = null;
-		} else {
-			data.style['display'] = "none";
-		}
-	});
+	for (const element of oftenlinks) {
+		element.hidden = !element.textContent.toLowerCase().includes(criteria);
+	}
 });
