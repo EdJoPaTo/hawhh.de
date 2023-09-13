@@ -1,68 +1,33 @@
 [{
-  "name": "StISys",
-  "description": "Studenten Informations System",
-  "keywords": [],
-  "url": "https://stisys.haw-hamburg.de"
+  "name": "Cyberangriff",
+  "description": "Angriff auf die IT-Infrastruktur",
+  "keywords": ["hack", "infrastruktur"],
+  "url": "https://www.haw-hamburg.de/cyberangriff/"
 }, {
   "name": "MyHAW",
   "description": "Das Bewerbungs- und Studierendenportal der HAW Hamburg",
   "keywords": [],
-  "url": "https://myhaw.haw-hamburg.de"
-}, {
-  "name": "Helios",
-  "description": "Elektronisches Informations- und Organisationssystem",
-  "keywords": [],
-  "url": "https://haw-hamburg.de/helios"
-}, {
-  "name": "EMIL",
-  "description": "E-Learning-Plattform EMIL (Moodle)",
-  "keywords": [],
-  "url": "https://emil.haw-hamburg.de"
+  "url": "https://myhaw.haw.tuhh.de/"
 }, {
   "name": "Telegram Kalender Bot",
   "description": "Lasse dir einen auf dich abgestimmten Vorlesungskalender erstellen",
   "keywords": ["hawhhcalendarbot", "veranstaltungspläne", "ics"],
   "url": "https://hawhh.de/calendarbot/"
 }, {
-  "name": "Cloud der HAW Hamburg",
-  "description": "ownCloud der HAW Hamburg für Studenten",
-  "keywords": ["cloud", "owncloud"],
-  "url": "https://cloud.haw-hamburg.de/"
-}, {
   "name": "GitLab",
   "description": "GitLab Instanz des Department Informatik",
   "keywords": ["github", "bitbucket", "sourcecode", "vcs"],
   "url": "https://git.haw-hamburg.de/"
 }, {
-  "name": "ICC - Informatik Compute Cloud",
-  "description": "Die Informatik Compute Cloud (ICC) ist eine vom AI Labor zur Verfügung gestellte Cloud-Plattform, in der Mitglieder des Departments containerbasierte Anwendungen betreiben können.",
-  "keywords": ["icc", "cloud", "ai", "k8s", "kubernetes", "ml", "machinelearning"],
-  "url": "https://icc.informatik.haw-hamburg.de/"
-}, {
-  "name": "HAW-Mailer",
-  "description": "Das zentrale Mailsystem der HAW Hamburg",
-  "keywords": [],
-  "url": "https://haw-mailer.haw-hamburg.de/owa"
-}, {
-  "name": "HAW VPN Service",
-  "description": "VPN Server der HAW Hamburg",
-  "keywords": ["vpn", "cisco", "openconnect", "paper", "research", "icc"],
-  "url": "https://vpn.haw-hamburg.de"
-}, {
-  "name": "JupyterHub",
-  "description": "JupyterHub für JypyterNotebooks der HAW Hamburg",
-  "keywords": ["python", "jupyternotebook", "ai", "ml", "machinelearning"],
-  "url": "https://jupyterhub.informatik.haw-hamburg.de/"
+  "name": "WLAN / VPN",
+  "description": "VPN-Dienst der HAW Hamburg",
+  "keywords": ["vpn", "eduvpn", "paper", "research"],
+  "url": "https://www.haw-hamburg.de/wlan/"
 }, {
   "name": "Meeting Room Booking System",
   "description": "Dep. Informatik Raumplanungssystem",
   "keywords": ["raum", "belegt", "frei", "veranstaltung"],
   "url": "https://resources.informatik.haw-hamburg.de"
-}, {
-  "name": "Selfservice",
-  "description": "Der Selfservice dient zum Ändern des HAW Passwortes",
-  "keywords": [],
-  "url": "https://selfservice.haw-hamburg.de/"
 }, {
   "name": "Dokumentations-Wiki des Departments Informatik",
   "description": "Auf dieser Seite stehen Informationen für IT-Nutzer des Departments Informatik",
@@ -88,11 +53,6 @@
   "description": "Nextcloud Instanz der Fachschaftsräte Informatik und Informations- und Elektrotechnik",
   "keywords": ["cloud", "nextcloud", "fsr", "i2e"],
   "url": "https://nc.i2e.fsr.haw-hamburg.de/"
-}, {
-  "name": "CaDS",
-  "description": "Communication and distributed systems",
-  "keywords": [],
-  "url": "https://cads.informatik.haw-hamburg.de/"
 }, {
   "name": "Klausurensammlung",
   "description": "Sammlung von Klausuren aus vergangenen Semestern",
