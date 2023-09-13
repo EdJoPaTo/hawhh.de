@@ -1,14 +1,14 @@
 {{ define "main" }}
 <form action="https://duckduckgo.com/">
-  <input type="search" name="q" id="listfilter">
-  <input type="hidden" name="sites" value="edjopato.de">
-  <button type="submit">Search</button>
+	<input type="search" name="q" id="listfilter">
+	<input type="hidden" name="sites" value="edjopato.de">
+	<button type="submit">Search</button>
 </form>
 
 <main class="list">
-  {{ range .Paginator.Pages }}
-    {{ partial "listentry.html" . }}
-  {{ end }}
+{{ range .Paginator.Pages }}
+{{ partial "listentry.html" . }}
+{{ end }}
 </main>
 {{ template "_internal/pagination.html" . }}
 {{ end }}

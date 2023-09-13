@@ -1,13 +1,13 @@
 <header>
-  <a href="/">
-    {{ if .Params.logo -}}
-    <img src="{{ .Params.logo }}" alt="Logo">
-    {{- else -}}
-    <img src="/hawlogo_transparent.png" alt="HAW Logo">
-    {{- end }}
-  </a>
-  <h1>{{ .Title }}</h1>
-  {{ if .Params.subtitle }}
-  <div>{{ .Params.subtitle }}</div>
-  {{ end }}
+	<a href="/">
+		{{ if .Params.logo -}}
+		<img src="{{ .Params.logo }}" alt="Logo">
+		{{- else -}}
+		<img src="/hawlogo_transparent.png" alt="HAW Logo">
+		{{- end }}
+	</a>
+	<h1>{{ .Title }}</h1>
+	{{ if .Params.subtitle }}
+	<div>{{ .Params.subtitle }}</div>
+	{{ end }}
 </header>

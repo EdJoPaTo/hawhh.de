@@ -1,32 +1,31 @@
 {{ define "main" }}
 <main>
+	<form action="https://duckduckgo.com/">
+		<input type="search" name="q" placeholder="Durchsuche die HAW Webseite" autocapitalize="none" autocomplete="off" autofocus>
+		<input type="hidden" name="sites" value="haw-hamburg.de">
+		<button type="submit">Search</button>
+	</form>
+	{{ $built := resources.Get "js/filter.js" | js.Build "filter.js" | resources.Fingerprint "sha512" -}}
+	<script src="{{ $built.RelPermalink }}" defer></script>
 
-<form action="https://duckduckgo.com/">
-    <input type="search" name="q" placeholder="Durchsuche die HAW Webseite" autocapitalize="none" autocomplete="off" autofocus>
-    <input type="hidden" name="sites" value="haw-hamburg.de">
-    <button type="submit">Search</button>
-</form>
-{{ $built := resources.Get "js/filter.js" | js.Build "filter.js" | resources.Fingerprint "sha512" -}}
-<script src="{{ $built.RelPermalink }}" defer></script>
-
-<div class="list">
-    {{ range .Site.Data.oftenlinks }}
-    <a href="{{ .url | safeURL }}">
-        <article>
-            <h2>{{ .name }}</h2>
-            {{ .description }}
-            <div class="keywords">
-                {{ range .keywords }}
-                <span>{{ . }}</span>
-                {{ end }}
-            </div>
-            <div class="url">{{ .url | safeURL }}</div>
-        </article>
-    </a>
-    {{ end }}
-    <div>
-        Drücke Enter um auf DuckDuckGo zu suchen
-    </div>
-</div>
+	<div class="list">
+		{{- range .Site.Data.oftenlinks }}
+		<a href="{{ .url | safeURL }}">
+			<article>
+				<h2>{{ .name }}</h2>
+				{{ .description }}
+				<div class="keywords">
+					{{ range .keywords }}
+					<span>{{ . }}</span>
+					{{ end }}
+				</div>
+				<div class="url">{{ .url | safeURL }}</div>
+			</article>
+		</a>
+		{{- end -}}
+		<div>
+			Drücke Enter um auf DuckDuckGo zu suchen
+		</div>
+	</div>
 </main>
 {{ end }}
