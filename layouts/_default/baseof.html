@@ -3,8 +3,9 @@
 
 <head>
 {{ partial "head.html" . }}
-{{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ with resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end -}}
 </head>
 
 <body>
