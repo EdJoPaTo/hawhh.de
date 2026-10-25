@@ -9,7 +9,7 @@
 	<script src="{{ $built.RelPermalink }}" defer></script>
 
 	<div class="list">
-		{{- range .Site.Data.oftenlinks }}
+		{{- range hugo.Data.oftenlinks }}
 		<a href="{{ .url | safeURL }}">
 			<article>
 				<h2>{{ .name }}</h2>

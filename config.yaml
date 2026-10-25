@@ -1,7 +1,7 @@
 baseURL: https://hawhh.de/
 DefaultContentLanguage: de
 enableGitInfo: true
-languageCode: de
+locale: de
 metaDataFormat: "yaml"
 pygmentsCodeFences: true
 pygmentsUseClasses: true
@@ -9,6 +9,6 @@ title: Inoffizielle HAW Hamburg Suche
 
 server:
   headers:
-  - for: /**
-    values:
-      Content-Security-Policy: base-uri 'none'; form-action 'none'; default-src 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'
+    - for: /**
+      values:
+        Content-Security-Policy: base-uri 'none'; form-action 'none'; default-src 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'

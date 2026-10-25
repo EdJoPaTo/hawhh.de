@@ -1,3 +1,12 @@
+@use "a";
+@use "background";
+@use "code";
+@use "footer";
+@use "header";
+@use "input";
+@use "list";
+@use "single";
+
 html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -21,12 +30,3 @@ h1, h2, h3, h4, h5, h6, .url {
     color: #acb7cf;
   }
 }
-
-@import "a";
-@import "background";
-@import "code";
-@import "footer";
-@import "header";
-@import "input";
-@import "list";
-@import "single";
