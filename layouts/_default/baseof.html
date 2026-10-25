@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Site.Language.Lang }}">
 
 <head>
 {{ partial "head.html" . }}
 {{ with resources.Get "style/main.scss" | css.Sass (dict "transpiler" "dartsass" "targetPath" "main.css" "enableSourceMap" true) | minify | fingerprint -}}
-<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 {{ end -}}
 </head>
 
